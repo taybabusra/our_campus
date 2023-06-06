@@ -1,0 +1,99 @@
+.sidebar {
+    float: right;
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.filters {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filters li {
+    margin-bottom: 5px;
+}
+
+.filters li a {
+    text-decoration: none;
+    color: #333;
+}
+.problem {
+    width: 50%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+}
+
+.problem h2 {
+    margin-top: 0;
+}
+
+.problem p {
+    margin-bottom: 10px;
+}
+
+/* Additional styles for the existing elements */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.problem-list {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+        
+.solve-button {
+     background-color: #0fc5ad;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+}
+        
+.solve-button:hover {
+     background-color: #121b13;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
