@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem: Longest Common Prefix</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/simplebar/dist/simplebar.min.css" />
+    <script src="https://unpkg.com/simplebar/dist/simplebar.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Practice</a></li>
+                <li><a href="#">Compete</a></li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Editorial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="problem-section"data-simplebar>
+            <div class="problem">
+                <div class="problem-block">
+                    <h2>Say "Hello, World" with Python</h2>
+                    <h6>Here is a sample line of code that can be executed in Python:</h6>
+                    <div id="descriptionDiv">
+                        <p>print("Hello, World!")</p>
+                    </div>
+                </div>
+                <div class="problem-block">
+                    <h6>You can just as easily store a string as a variable and then print it to stdout:</h6>
+                    <div id="exampleDiv">
+                        <p>my_string = "Hello, World!"<br>
+                        print(my_string)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="solution-section">
+            <h2>Solution</h2>
+            <div id="codeSection">
+                <div id="languageSelectDiv">
+                    <label for="languageSelect">Language:</label>
+                    <select id="languageSelect">
+                        <option value="python">Python</option>
+                        <option value="cpp">C++</option>
+                        <option value="java">Java</option>
+                    </select>
+                </div>
+                <div id="editor"></div>
+                <button id="runBtn">Run</button>
+                <button id="submitBtn">Submit</button>
+            </div>
+
+            <div id="outputSection">
+                <label for="output">Output:</label>
+                <textarea id="output" rows="4" cols="50" readonly></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 OurCampus</p>
+    </footer>
+
+</body>
+</html>
